@@ -39,6 +39,6 @@ public class reg {
             System.err.println("ERROR: failed to connect to database");
             e.printStackTrace();
         }
-
+       sc.close();
     }
 }
